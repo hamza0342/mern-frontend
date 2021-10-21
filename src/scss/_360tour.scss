@@ -1,0 +1,22 @@
+.tour{
+    margin: 10px;
+
+
+    .button_1{
+        
+        border:2px solid rgb(238, 233, 233);
+        border-radius: 5px ;
+        padding: 4px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+        background-color:rgb(67, 164, 230);
+      
+    }
+    .button_1:hover{
+        color: rgb(67, 164, 230); 
+        background-color: white;
+        
+        
+    }
+}

@@ -1,0 +1,148 @@
+.upload_model{
+    margin: 10px;
+    display: flex;
+
+    .button_2{
+        margin-left: 0px;
+        border:2px solid rgb(238, 233, 233);
+        border-radius: 5px ;
+        padding: 4px;
+        padding-left: 10px;
+        padding-right: 10px;
+      
+    }
+    .button_2:hover{
+        color: white ;
+        background-color:rgb(67, 164, 230);
+        
+    }
+    .button_1{
+        
+        border:1px solid rgb(255, 255, 255);
+        padding: 4px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: rgb(67, 164, 230);
+        color: white;
+        border-radius: 5px ;
+      
+
+        
+    }
+    .button_1:hover{
+        color:rgb(67, 164, 230) ;
+        background-color: white;
+        border:2px solid rgb(238, 233, 233);
+        border-radius: 5px ;
+    }
+    .modal{
+
+        .fade{
+            .model_upload{
+                font-size: 40px;
+            }
+        }
+    }
+
+    
+}
+.folders{
+
+    margin-top: 20px;
+    flex-direction: row;
+
+  
+    
+    
+
+    ul{
+    
+       display: flex;
+        list-style: none;
+        flex: 1;
+        flex-wrap: wrap;
+        
+        
+    }
+    
+
+    
+    .btn{
+        margin-left: 5px;
+     
+       border-radius: 10px;
+        // background-color: rgba(235, 214, 29, 0.897);
+
+        .fold{
+            font-size: 10px;
+            width: 130px;
+            height: 100px;
+            padding: 30px;
+            display: flex;
+         
+            margin-top: -100px;
+            display: flex;
+            justify-content: space-between;
+          
+            .name{
+                margin-left: -29px;
+                margin-top: -35px;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 10px;
+            }
+            .upload_btn{
+                border: none;
+                cursor: pointer;
+                position: fixed;
+                transition: all 0.5s;
+                position: sticky;
+                
+                .content{
+                    margin-top: 50px;
+                    color:rgb(126, 10, 10) ;
+                    font-weight: bold;
+                    transition: all 0.2s;
+                    margin-left: -20px;
+                    
+                    
+                   
+                }
+                .content:hover{
+                   color: gray;
+                   font-size: 12px;
+                }
+            }
+          
+      
+           
+            .delete{
+                
+                color: rgb(179, 14, 14);
+                margin-right: -28px;
+                margin-top: 42px;
+               
+                button{
+                    border: none;
+                    background-color:transparent;
+                   
+                }
+              
+                
+                
+            }
+            .delete:hover{
+                color: gray
+            }
+            
+        }
+        .title{
+            font-size: 14px;
+            font-weight: 500;
+            font-family: 'STIX Two Text', serif;
+        }
+    }
+
+
+   
+}

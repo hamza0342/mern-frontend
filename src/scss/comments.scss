@@ -1,0 +1,29 @@
+.comment{
+
+    background-color: rgb(228, 227, 227);
+    color: black;
+    padding: 4px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: flex;
+  
+    // overflow-x: hidden;
+
+    .cmnt{
+        width:500px;
+        overflow:auto;
+
+        word-wrap: break-word;
+       .para{
+           color:rgb(156, 94, 8);
+           font-size: 12px;
+           letter-spacing: 1px;
+            font-family:Verdana, Tahoma, sans-serif;
+        
+      
+       }
+        
+       
+    }
+}

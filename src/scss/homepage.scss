@@ -1,0 +1,23 @@
+.ant-modal-header {
+    background-color: #ebb930 !important;
+    & .ant-modal-title{
+        color: black;
+        font-weight: 700;
+    }
+}
+
+.ant-modal-body {
+    & .ant-card {
+        box-shadow: 5px 2px 3px 6px whitesmoke;
+        font-weight: 500;
+        color: black;
+
+    }
+    & .ant-btn {
+        background-color: #ebb930 !important;
+        color: black;
+        font-weight: 600;
+        border-radius: 5px 5px 5px 5px;
+        border: 0px;
+    }
+}

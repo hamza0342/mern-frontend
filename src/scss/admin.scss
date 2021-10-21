@@ -1,0 +1,85 @@
+@import "variables";
+//Antd Layout styles
+.site-layout {
+    .site-layout-background {
+        background: #fff;
+    }
+    & h1 
+    {
+        margin-left: 10px;
+        font-family: Montserrat;
+        font-weight: 600;
+        margin-bottom: 0px;
+        font-size: 22px;
+    }
+} 
+.site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    background: #fff;
+}
+.logo {
+    height: 32px;
+    margin: 35px 16px 80px 40px;
+}
+
+.ant-layout-sider {
+    margin: 10px 15px 10px 10px;
+    border-radius: 0px 20px 20px 0px;
+    min-width: 250px !important;
+
+}
+
+.card-display {
+    margin: 10px 10px 10px 10px !important;
+    font-family: "Montserrat" !important;
+    width: 350px;
+    padding: 10px 10px 10px 10px !important;
+    border-radius: 12px !important;
+    display: inline-block;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 15px;
+    color: $primary-base;
+    letter-spacing: 2px;
+}
+
+.card-text {
+    font-weight: 400;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.page-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: $primary-900;
+}
+
+.navbar {
+    background-color: #001529;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.ant-drawer-body {
+    background-color: #001529 !important;
+    padding: 0px !important;
+}  
+@media (min-width: 992px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .ant-layout-sider {
+        display: none;
+    }
+    .logo {
+        float: right;
+    }
+}

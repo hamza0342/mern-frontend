@@ -1,0 +1,76 @@
+@import url(//db.onlinewebfonts.com/c/1273d9cc8e74f85a3e5dd1b732aa2b4c?family=Avenir+Next+Cyr);
+
+.ant-layout {
+  background-color: #FFFFFF !important;
+}
+.site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    background: #ffffff;
+  }
+
+.header-style {
+  background-color: #FFFFFF !important;
+  margin-bottom: 24px;
+}
+
+.ant-menu-dark.ant-menu-horizontal {
+  & .ant-menu-item {
+    padding: 0px !important ;
+    border-color: #001529;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    border-bottom: 3px solid !important;
+    font-family: 'Montserrat';
+  }
+  & .ant-menu-item:hover {
+    background-color: white !important;
+    color: black !important;
+  }
+  & a:hover {
+    color: black !important;
+  }
+} 
+.ant-menu.ant-menu-dark{
+  .ant-menu-item-selected {
+    background-color: transparent !important;
+  }
+} 
+
+.avatar-props {
+  color: white !important;
+  background-color: black !important;
+  float: right;
+  margin-top: 20px !important;
+}
+
+.secondary-nav {
+  margin-top: 12px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #e4e4e4;
+
+  & .ant-btn {
+    color: #fff;
+    padding: 8px 20px 8px 10px;
+    border-radius: 4px;
+    transition: background-color .3s ease;
+    margin-left: 0;
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    & .ant-btn-selected {
+      background-color: #f75223 !important;
+      color: white !important;
+    }
+  }
+ 
+}
+
+// @media (max-width: 992px) {
+//   .header-style {
+//     padding: 0px;
+//   }
+// }

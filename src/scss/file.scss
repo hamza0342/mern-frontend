@@ -1,0 +1,150 @@
+.upload_files {
+  margin: 10px;
+
+  .tableDiv {
+    margin-left: 5%;
+    
+  }
+  #table {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+  ;
+  
+  }
+  #table td,
+  #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: black;
+    font-weight: 500;
+  }
+  #table td  .download {
+    background-color: rgb(67, 164, 230);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    letter-spacing: 1px;
+  
+  
+
+   
+  }
+  #table td  .pdf {
+    background-color:#ff9933;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
+   float: right;
+   margin-right: 10px;
+   
+  }
+  #table td  .delete{
+    background-color: rgb(253, 53, 53);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
+    margin-left: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+
+  
+    
+   }
+   #table td .resolve{
+    background-color: rgba(231, 185, 35, 0.897);
+    border: none;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 7px;
+    margin-left: 25px;
+   }
+
+  .approved div div {
+   text-align: center;
+   margin-left: 10px;
+   cursor: pointer;
+   color: gray;
+   
+ }
+  #table tr:nth-child(odd) {
+    background-color: #eeebeb;
+  }
+
+  #table tr:hover {
+    background-color: #ddd;
+  }
+
+  #table td {
+height: 120px;
+  }
+  #table td .d{
+    display: none;
+  }
+  #table td .p:hover + .d{
+    display:block;
+    font-size: 12px;
+    color: red;
+    position: fixed;
+    margin-top: -53px;
+  }
+  
+  #table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+letter-spacing: 1px;
+ 
+  }
+
+  .button_2 {
+    margin-left: 0px;
+    border: 2px solid rgb(238, 233, 233);
+    border-radius: 5px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .button_2:hover {
+    color: white;
+    background-color: rgb(67, 164, 230);
+  }
+  .button_1 {
+    border: 2px solid rgb(56, 152, 221);
+    padding: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(57, 176, 255);
+    color: white;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: 16px;
+   
+  }
+  .button_1:hover {
+    color: rgb(67, 164, 230);
+    background-color: white;
+    border: 2px solid rgb(238, 233, 233);
+    border-radius: 5px;
+  }
+  .modal {
+    .fade {
+      .model_upload {
+        font-size: 30px;
+      }
+    }
+  }
+}
